@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-green-900 text-white font-Jost tracking-tighter;
+}
+
+.nav-link {
+    @apply text-lg font-bold duration-300;
+}
+
+.nav-link:hover {
+    @apply text-orange-700 duration-300;
+}
+
+section {
+    @apply py-20 md:py-28;
+}
+
+h1 {
+    @apply text-3xl md:text-4xl xl:text-5xl font-bold;
+}
+
+/* button */
+button span {
+    @apply font-bold;
+}
+
+.btn {
+    @apply border border-yellow-500 bg-yellow-500 rounded-md px-5 py-2 duration-200;
+}
+
+.btn:hover {
+    @apply opacity-70;
+}
+.btn_outline {
+    @apply bg-transparent;
+}
+
+.btn_outline:hover {
+    @apply bg-yellow-500;
+}
+
+@layer base {
+    h3 {
+        @apply text-xl;
+    }
+}
+
+.popular_card:hover img {
+    @apply -top-8;
+}
+
+.swiper-pagination-bullet {
+    @apply bg-green-600 w-2 h-2;
+}
