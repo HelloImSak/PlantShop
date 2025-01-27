@@ -669,20 +669,20 @@ h3{
   z-index: 50;
 }
 
-.mb-40{
-  margin-bottom: 10rem;
+.mb-10{
+  margin-bottom: 2.5rem;
 }
 
-.mt-20{
-  margin-top: 5rem;
+.mb-40{
+  margin-bottom: 10rem;
 }
 
 .mt-16{
   margin-top: 4rem;
 }
 
-.mb-10{
-  margin-bottom: 2.5rem;
+.mt-20{
+  margin-top: 5rem;
 }
 
 .flex{
@@ -961,34 +961,24 @@ h3{
   padding-right: 0.5rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-3{
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
 
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pb-10{
@@ -1278,10 +1268,6 @@ button span{
 @media (min-width: 768px){
   .md\:left-1\/2{
     left: 50%;
-  }
-
-  .md\:grid{
-    display: grid;
   }
 
   .md\:hidden{
